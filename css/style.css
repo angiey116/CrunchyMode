@@ -1,0 +1,17 @@
+/* background color and text font */
+body {
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+}
+
+/* text alignment and color */
+h1 {
+    text-align: center;
+    color: rgb(80, 130, 80);
+}
+
+/* text size */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
