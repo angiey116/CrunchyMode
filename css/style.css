@@ -1,8 +1,12 @@
 /*TAG BASED SELECTORS*/
 /* background color and text font */
 body {
+    margin: 0;
     background-color: #e8f5e9;
     font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 /* text alignment and color */
@@ -17,35 +21,40 @@ p {
     line-height: 1.5;
 }
 
+    img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /*FLEXBOX*/
 .flexContainer {
     display: flex;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .flexContainer .card {
     flex: 1;
+    min-width: 250px;
 }
 
+/*MEDIA QUERIES*/
 @media (max-width: 600px) {
-    body {
-    font-size: 16px;
-}
-
-    nav {
+nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-    main {
+main {
     padding: 12px;
 }
 
-    img {
-    max-width: 100%;
-    height: auto;
+.flexContainer {
+    flex-direction: column;
+    padding: 12px;
 }
 }
 
