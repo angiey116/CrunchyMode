@@ -4,6 +4,7 @@
 <head>
 <!--title of website-->
     <title>CRUNCHY</title>
+<!--bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css">
@@ -11,36 +12,46 @@
 
 <body>
 <!--title of page -->
-<header><h1>Crunchy Lifestyle</h1>
-    <nav>
-    <a href="index.html">Home</a>
-    <a href="page2.html">Need to know</a>
+<header class="bg-light py-4 mb-4">
+    <div class="container text-center">
+        <h1 class="mb-3">Crunchy Lifestyle</h1>
+
+    <nav class="d-flex justify-content-center gap-2">
+        <a class="btn btn-primary" href="index.html">Home</a>
+        <a class="btn btn-outline-primary" href="page2.html">Need to know</a>
     </nav>
+    </div>
 </header>
 
 <!--main area with info about the crunchy lifestyle-->
-<main>
-    <section>
-    <h2>Do you know what it means to be crunchy?</h2>
-    <p>This certain lifestyle is about living as naturally as possible to maintain a stable well-being. Choosing this lifestyle means cooking more home-cooked meals instead of picking up McDonald's or Taco Bell. It means going to a store and buying organic, non-gmo, pasture-raised, real foods instead of processed junk. Crunchy people pay much attention to what is going on inside and on their bodies. Using natural products are key but not ones that include "natural flavors."</p>
-    <p>As mentioned, this lifestyle also focuses on what is going on your body such as what the skin is touching or what your inhaling. It often includes choosing natural materials like 100% cotton. That goes for items like towels, clothing, and bed sheets. Crunchy people focus on the kind of candles they buy as well. Brands like Yankee and Diptyque release chemicals, one popularly known as paraffin, that are toxic to inhale. Candles that are paraffin-free and wax or beeswax are preferred. It will reduce irritation for the skin and overall health. This lifestyle is all about creating a healthy environment for our bodies. </p>
+<main class="container pb-4">
+    <section class="mb-4">
+        <h2 class="mb-3">Do you know what it means to be crunchy?</h2>
+            <p>This certain lifestyle is about living as naturally as possible to maintain a stable well-being. Choosing this lifestyle means cooking more home-cooked meals instead of picking up McDonald's or Taco Bell. It means going to a store and buying organic, non-gmo, pasture-raised, real foods instead of processed junk. Crunchy people pay much attention to what is going on inside and on their bodies. Using natural products are key but not ones that include "natural flavors."</p>
+            <p>As mentioned, this lifestyle also focuses on what is going on your body such as what the skin is touching or what your inhaling. It often includes choosing natural materials like 100% cotton. That goes for items like towels, clothing, and bed sheets. Crunchy people focus on the kind of candles they buy as well. Brands like Yankee and Diptyque release chemicals, one popularly known as paraffin, that are toxic to inhale. Candles that are paraffin-free and wax or beeswax are preferred. It will reduce irritation for the skin and overall health. This lifestyle is all about creating a healthy environment for our bodies. </p>
+    </section>  
 
-    <h3>My Routine</h3>
+    <section class="card p-3 mb-4">
+        <h3 class="sectionTitle">My Routine</h3>
     <!--ordered list of my routine to help beginners-->
-    <ol>
-        <li>Get up and drink a full cup of water, no ice! Room temp is best.</li>
-        <li>Eat a balanced breakfast. It does not matter if I am not hungry because breakfast is the most important meal of the day. It will fuel how your body will be for the rest of the day.</li>
-        <li>Prepare my meal-planned items for the day containing all real foods</li>
-        <li>Do any bit of physical activity such as a walk or stretch. Most of the time I stretch for timing purposes. Anything but going on my phone!</li>
-        <li>After school and work, immediately shower and change. No outside clothing on my 100% cotton sheets and pillows.</li>
-        <li>Light my 100% wax candle, eat my meal-plan (No take-out), and watch my show at a safe distance. Not much phone usage because limited screen time when winding down is essential.</li>
-    </ol>
+        <ol class="mb-0">
+            <li>Get up and drink a full cup of water, no ice! Room temp is best.</li>
+            <li>Eat a balanced breakfast. It does not matter if I am not hungry because breakfast is the most important meal of the day. It will fuel how your body will be for the rest of the day.</li>
+            <li>Prepare my meal-planned items for the day containing all real foods</li>
+            <li>Do any bit of physical activity such as a walk or stretch. Most of the time I stretch for timing purposes. Anything but going on my phone!</li>
+            <li>After school and work, immediately shower and change. No outside clothing on my 100% cotton sheets and pillows.</li>
+            <li>Light my 100% wax candle, eat my meal-plan (No take-out), and watch my show at a safe distance. Not much phone usage because limited screen time when winding down is essential.</li>
+        </ol>
+    </section>
+</main>
 
 <!--add an image -->
-    <img src="images/labels.jpg" alt="Labels to look out for" width="1300">
+    <img src="images/labels.jpg" class="img-fluid rounded mb-4" alt="Labels to look out for">
 
-<footer>
-    <p>2026 Crunchy Lifestyle. All rights reserved.</p>
+<footer class="bg-light py-3 mt-4">
+    <div class="container text-center">
+    <p class="mb-0">2026 Crunchy Lifestyle. All rights reserved.</p>
+    </div>
 </footer>
 </body>
 
